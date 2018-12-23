@@ -7,12 +7,15 @@ import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Root;
 
+import org.springframework.beans.factory.annotation.Autowired;
+
 import com.bootcamp.dao.CustomerDao;
 import com.bootcamp.dao.repository.CustomerRepository;
 import com.bootcamp.model.Customer;
 
 public class CustomerDaoImpl extends BaseImpl implements CustomerDao {
 
+	@Autowired
 	private CustomerRepository repository;
 	
 	@Override

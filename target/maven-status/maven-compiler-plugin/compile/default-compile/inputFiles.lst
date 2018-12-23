@@ -1,0 +1,8 @@
+/home/mrjupe/eclipse-workspace/com.bootcamp.restapi-0.0.1-SNAPSHOT/src/main/java/com/bootcamp/CustomerController.java
+/home/mrjupe/eclipse-workspace/com.bootcamp.restapi-0.0.1-SNAPSHOT/src/main/java/com/bootcamp/dao/repository/CustomerRepository.java
+/home/mrjupe/eclipse-workspace/com.bootcamp.restapi-0.0.1-SNAPSHOT/src/main/java/com/bootcamp/impl/BaseImpl.java
+/home/mrjupe/eclipse-workspace/com.bootcamp.restapi-0.0.1-SNAPSHOT/src/main/java/com/bootcamp/dao/config/DaoSpringConfig.java
+/home/mrjupe/eclipse-workspace/com.bootcamp.restapi-0.0.1-SNAPSHOT/src/main/java/com/bootcamp/App.java
+/home/mrjupe/eclipse-workspace/com.bootcamp.restapi-0.0.1-SNAPSHOT/src/main/java/com/bootcamp/model/Customer.java
+/home/mrjupe/eclipse-workspace/com.bootcamp.restapi-0.0.1-SNAPSHOT/src/main/java/com/bootcamp/dao/CustomerDao.java
+/home/mrjupe/eclipse-workspace/com.bootcamp.restapi-0.0.1-SNAPSHOT/src/main/java/com/bootcamp/impl/CustomerDaoImpl.java
