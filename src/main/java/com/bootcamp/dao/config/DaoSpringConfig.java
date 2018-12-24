@@ -5,8 +5,10 @@ import org.springframework.context.annotation.Configuration;
 
 import com.bootcamp.dao.AccountDao;
 import com.bootcamp.dao.CustomerDao;
+import com.bootcamp.dao.TransactionDao;
 import com.bootcamp.impl.AccountDaoImpl;
 import com.bootcamp.impl.CustomerDaoImpl;
+import com.bootcamp.impl.TransactionDaoImpl;
 
 @Configuration
 public class DaoSpringConfig {
@@ -19,5 +21,10 @@ public class DaoSpringConfig {
 	@Bean
 	public AccountDao accountDao() {
 		return new AccountDaoImpl();
+	}
+	
+	@Bean
+	public TransactionDao transactionDao() {
+		return new TransactionDaoImpl();
 	}
 }

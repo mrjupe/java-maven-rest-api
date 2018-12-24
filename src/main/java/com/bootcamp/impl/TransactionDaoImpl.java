@@ -14,13 +14,13 @@ import com.bootcamp.dao.repository.TransactionRepository;
 import com.bootcamp.model.Account;
 import com.bootcamp.model.Transaction;
 
-public class TransactinDaoImpl extends BaseImpl implements TransactionDao {
+public class TransactionDaoImpl extends BaseImpl implements TransactionDao {
 
 	@Autowired
 	private TransactionRepository repository;
 	
 	@Override
-	public Transaction getByIt(String id) throws Exception {
+	public Transaction getById(String id) throws Exception {
 		return repository.findOne(Integer.valueOf(id));
 	}
 
